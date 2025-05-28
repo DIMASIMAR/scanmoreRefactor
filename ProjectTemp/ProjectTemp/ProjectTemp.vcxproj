@@ -130,6 +130,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ProjectTemp.cpp" />
+    <ClCompile Include="src\Application\Commands\Command.cpp" />
+    <ClCompile Include="src\Application\Events\Events.cpp" />
+    <ClCompile Include="src\Application\Service\Service.cpp" />
+    <ClCompile Include="src\Domain\Entities\Configuration\Configuration.cpp" />
+    <ClCompile Include="src\Domain\Entities\Device\Device.cpp" />
+    <ClCompile Include="src\Domain\Entities\Exam\Exam.cpp" />
+    <ClCompile Include="src\Domain\Entities\Image\Image.cpp" />
+    <ClCompile Include="src\Domain\Entities\Sensor\Sensor.cpp" />
+    <ClCompile Include="src\Domain\Enum\Enum.cpp" />
+    <ClCompile Include="src\Domain\ValueObject\ValueObject.cpp" />
+    <ClCompile Include="src\Infrastructure\Adapter\Adapter.cpp" />
+    <ClCompile Include="src\Infrastructure\Configuration\Configuration.cpp" />
+    <ClCompile Include="src\Infrastructure\Interfaces\External\External.cpp" />
+    <ClCompile Include="src\Infrastructure\Interfaces\Repositories\Repositories.cpp" />
+    <ClCompile Include="src\Infrastructure\Interfaces\Services\Serivices.cpp" />
+    <ClCompile Include="src\Infrastructure\Persistence\Persistence.cpp" />
+    <ClCompile Include="src\Infrastructure\Sensore\Athlos\Athlos.cpp" />
+    <ClCompile Include="src\Infrastructure\Sensore\Dalsa\Dalsa.cpp" />
+    <ClCompile Include="src\Infrastructure\Sensore\DrTech\DrTech.cpp" />
+    <ClCompile Include="src\Infrastructure\Sensore\Hamamatsu\Hamamatsu.cpp" />
+    <ClCompile Include="src\Infrastructure\Sensore\Varex\Varex.cpp" />
+    <ClCompile Include="src\Presentation\API\API.cpp" />
+    <ClCompile Include="src\Presentation\ExternalSystem\External.cpp" />
+    <ClCompile Include="src\Workflows\Workflow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

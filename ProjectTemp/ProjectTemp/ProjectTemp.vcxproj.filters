@@ -18,5 +18,77 @@
     <ClCompile Include="ProjectTemp.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="src\Application\Commands\Command.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application\Events\Events.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application\Service\Service.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Entities\Configuration\Configuration.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Entities\Device\Device.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Entities\Exam\Exam.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Entities\Image\Image.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Entities\Sensor\Sensor.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\Enum\Enum.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domain\ValueObject\ValueObject.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Adapter\Adapter.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Configuration\Configuration.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Interfaces\External\External.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Interfaces\Repositories\Repositories.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Interfaces\Services\Serivices.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Persistence\Persistence.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Sensore\Athlos\Athlos.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Sensore\Dalsa\Dalsa.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Sensore\DrTech\DrTech.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Sensore\Hamamatsu\Hamamatsu.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Infrastructure\Sensore\Varex\Varex.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Presentation\API\API.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Presentation\ExternalSystem\External.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Workflows\Workflow.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
