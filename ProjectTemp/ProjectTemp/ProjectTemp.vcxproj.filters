@@ -90,5 +90,11 @@
     <ClCompile Include="src\Workflows\Workflow.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="docs\Testo.txt" />
   </ItemGroup>
 </Project>

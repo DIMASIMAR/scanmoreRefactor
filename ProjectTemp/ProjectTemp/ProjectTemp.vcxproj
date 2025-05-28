@@ -154,6 +154,10 @@
     <ClCompile Include="src\Presentation\API\API.cpp" />
     <ClCompile Include="src\Presentation\ExternalSystem\External.cpp" />
     <ClCompile Include="src\Workflows\Workflow.cpp" />
+    <ClCompile Include="test\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="docs\Testo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
