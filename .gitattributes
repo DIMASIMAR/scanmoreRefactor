@@ -1,0 +1,44 @@
+# Ensure consistent line endings
+* text=auto
+
+# Force LF for source code (recommended for C++)
+*.cpp text eol=lf
+*.h   text eol=lf
+*.hpp text eol=lf
+*.c   text eol=lf
+*.inl text eol=lf
+
+# Windows batch and scripts: CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# Unix shell scripts: LF
+*.sh text eol=lf
+
+# Mark binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.pdb binary
+
+# Prevent merge conflicts in lock files
+*.lock merge=union
+
+# Visual Studio specific
+*.sln  text eol=crlf
+*.vcxproj  text eol=crlf
+*.filters  text eol=crlf
+*.props  text eol=crlf
+
+# UTF-8 BOM for Visual Studio files (optional, uncomment if needed)
+# *.sln text eol=crlf working-tree-encoding=UTF-8-BOM
+# *.vcxproj text eol=crlf working-tree-encoding=UTF-8-BOM
