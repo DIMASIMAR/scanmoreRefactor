@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemGroup>
+    <ClangFormatConfig Include="$(MSBuildThisFileDirectory)..\.clang-format" />
+    <ClangTidyConfig Include="$(MSBuildThisFileDirectory)..\.clang-tidy" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ClangFormatPath>$(MSBuildThisFileDirectory)..\.clang-format</ClangFormatPath>
+    <ClangTidyPath>$(MSBuildThisFileDirectory)..\.clang-tidy</ClangTidyPath>
+  </PropertyGroup>
+</Project>
