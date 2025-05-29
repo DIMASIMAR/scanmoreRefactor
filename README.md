@@ -84,20 +84,35 @@ See `.clang-tidy` for enabled checks (readability, performance, modernize, etc.)
 
 ### ✅ Pre-commit Hook (optional)
 
-Add a Git hook to enforce formatting:
-
-```bash
-#!/bin/bash
-# .git/hooks/pre-commit
+You can add a Git hook to automatically format .cpp and .h files before each commit.
+Create .git/hooks/pre-commit.ps1:
 
 clang-format -i $(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(cpp|h)$')
 git add $(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(cpp|h)$')
 ```
 
-Make it executable:
-```bash
-chmod +x .git/hooks/pre-commit
-```
+# Pre-commit hook for formatting C++ code with clang-format
+
+$stagedFiles = git diff --cached --name-only --diff-filter=ACM | Where-Object { $_ -match '\.(cpp|h)$' }
+
+if ($stagedFiles) {
+    Write-Host "Running clang-format on staged C++ files..."
+    foreach ($file in $stagedFiles) {
+        clang-format -i $file
+        git add $file
+    }
+}
+
+
+Then, in .git/hooks/pre-commit:
+
+
+#!/bin/sh
+pwsh .git/hooks/pre-commit.ps1
+
+
+
+
 
 ---
 
