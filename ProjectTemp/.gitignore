@@ -1,0 +1,26 @@
+# Build output directories (Visual Studio)
+x64/
+x86/
+Debug/
+Release/
+*.VC.db
+*.VC.opendb
+*.obj/
+*.ipch/
+*.log
+*.tlog/
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.suo
+*.user
+*.cache
+*.ncb
+*.sdf
+*.opensdf
+*.sln.docstates
