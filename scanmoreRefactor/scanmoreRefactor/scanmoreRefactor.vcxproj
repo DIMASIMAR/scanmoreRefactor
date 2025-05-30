@@ -22,8 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{38eea0ba-b0d0-42bc-a319-47ce7ba3b585}</ProjectGuid>
-    <RootNamespace>scanmoreRefactor
-	</RootNamespace>
+    <RootNamespace>scanmoreRefactor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -55,17 +54,15 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
-  <ImportGroup Label="Shared">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
- <ImportGroup Label="PropertySheets">
-  <Import Project="..\conan\conandeps.props" />
-  <Import Project="..\conan\conantoolchain.props" />
-</ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\conan\conandeps.props" />
+    <Import Project="..\conan\conantoolchain.props" />
+  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -135,37 +132,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ProjectTemp.cpp" />
-    <ClCompile Include="src\Application\Commands\Command.cpp" />
-    <ClCompile Include="src\Application\Events\Events.cpp" />
-    <ClCompile Include="src\Application\Service\Service.cpp" />
-    <ClCompile Include="src\Domain\Entities\Configuration\Configuration.cpp" />
-    <ClCompile Include="src\Domain\Entities\Device\Device.cpp" />
-    <ClCompile Include="src\Domain\Entities\Exam\Exam.cpp" />
-    <ClCompile Include="src\Domain\Entities\Image\Image.cpp" />
-    <ClCompile Include="src\Domain\Entities\Sensor\Sensor.cpp" />
-    <ClCompile Include="src\Domain\Enum\Enum.cpp" />
-    <ClCompile Include="src\Domain\ValueObject\ValueObject.cpp" />
-    <ClCompile Include="src\Infrastructure\Adapter\Adapter.cpp" />
-    <ClCompile Include="src\Infrastructure\Configuration\Configuration.cpp" />
-    <ClCompile Include="src\Infrastructure\Interfaces\External\External.cpp" />
-    <ClCompile Include="src\Infrastructure\Interfaces\Repositories\Repositories.cpp" />
-    <ClCompile Include="src\Infrastructure\Interfaces\Services\Serivices.cpp" />
-    <ClCompile Include="src\Infrastructure\Persistence\Persistence.cpp" />
-    <ClCompile Include="src\Infrastructure\Sensore\Athlos\Athlos.cpp" />
-    <ClCompile Include="src\Infrastructure\Sensore\Dalsa\Dalsa.cpp" />
-    <ClCompile Include="src\Infrastructure\Sensore\DrTech\DrTech.cpp" />
-    <ClCompile Include="src\Infrastructure\Sensore\Hamamatsu\Hamamatsu.cpp" />
-    <ClCompile Include="src\Infrastructure\Sensore\Varex\Varex.cpp" />
-    <ClCompile Include="src\Presentation\API\API.cpp" />
-    <ClCompile Include="src\Presentation\ExternalSystem\External.cpp" />
-    <ClCompile Include="src\Workflows\Workflow.cpp" />
+    <ClCompile Include="scanmoreRefactor.cpp" />
     <ClCompile Include="test\test.cpp" />
+    <ClCompile Include="src\**\*.cpp" />
+    <ClInclude Include="src\**\*.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="docs\Testo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
