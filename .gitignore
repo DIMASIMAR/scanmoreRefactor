@@ -3,3 +3,4 @@ ProjectTemp/ProjectTemp/src/Application/Commands/desktop.ini
 ProjectTemp/ProjectTemp/src/Application/Events/desktop.ini
 ProjectTemp/ProjectTemp/src/Application/Service/desktop.ini
 *.ini
+conan/
