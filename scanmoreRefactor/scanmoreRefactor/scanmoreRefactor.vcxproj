@@ -22,7 +22,8 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{38eea0ba-b0d0-42bc-a319-47ce7ba3b585}</ProjectGuid>
-    <RootNamespace>ProjectTemp</RootNamespace>
+    <RootNamespace>scanmoreRefactor
+	</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
